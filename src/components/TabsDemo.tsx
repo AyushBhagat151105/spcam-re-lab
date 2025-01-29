@@ -87,6 +87,60 @@ export function TabsDemo() {
     },
   ];
 
+  const testimonials3 = [
+    {
+      quote: "Frontend Developer",
+      name: "Dalbanjan Krishna",
+      designation: "Frontend Developer",
+      src: "/79.png",
+    },
+    {
+      quote: "Frontend Developer",
+      name: "Pathan Tahir Khan",
+      designation: "Frontend Developer",
+      src: "/69.jpg",
+    },
+    {
+      quote: "Backend Developer",
+      name: "Maji Sima",
+      designation: "Backend Developer",
+      src: "/59.jpg",
+    },
+    {
+      quote: "Backend Developer",
+      name: "Pathan Tanvir Khan",
+      designation: "Backend Developer",
+      src: "/49.jpg",
+    },
+  ];
+
+  const testimonials4 = [
+    {
+      quote: "IOT Developer",
+      name: "Harsh Gondaliya",
+      designation: "IOT Developer",
+      src: "/46.jpg",
+    },
+    {
+      quote: "IOT Developer",
+      name: "Aniket Parmar",
+      designation: "IOT Developer",
+      src: "/47.jpg",
+    },
+    {
+      quote: "IOT Developer",
+      name: "Darshil ",
+      designation: "IOT Developer",
+      src: "/48.png",
+    },
+    {
+      quote: "IOT Developer",
+      name: "Jeet Shah",
+      designation: "IOT Developer",
+      src: "/45.jpg",
+    },
+  ];
+
   const tabs = [
     {
       title: "Research Lab Lead",
@@ -107,6 +161,28 @@ export function TabsDemo() {
             Chakra Innovators tab
           </p>
           <AnimatedTestimonials testimonials={testimonials} autoplay={true} />
+        </div>
+      ),
+    },
+
+    {
+      title: "Code Wavers",
+      value: "Code Wavers",
+      content: (
+        <div className="w-full p-4 sm:p-6 md:p-10 text-base sm:text-lg md:text-2xl font-bold text-white bg-gradient-to-br from-gray-900 to-black rounded-2xl">
+          <p className="text-sm sm:text-base md:text-xl">Code Wavers tab</p>
+          <AnimatedTestimonials testimonials={testimonials3} autoplay={true} />
+        </div>
+      ),
+    },
+
+    {
+      title: "IOT Lagends",
+      value: "IOT Lagends",
+      content: (
+        <div className="w-full p-4 sm:p-6 md:p-10 text-base sm:text-lg md:text-2xl font-bold text-white bg-gradient-to-br from-gray-900 to-black rounded-2xl">
+          <p className="text-sm sm:text-base md:text-xl">IOT Lagends tab</p>
+          <AnimatedTestimonials testimonials={testimonials4} autoplay={true} />
         </div>
       ),
     },
