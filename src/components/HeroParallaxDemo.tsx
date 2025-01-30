@@ -72,12 +72,11 @@ export const products = [
   {
     title: "Invoker Labs",
     link: "/",
-    thumbnail:
-      "/11.jpg",
+    thumbnail: "/11.jpg",
   },
   {
     title: "E Free Invoice",
     link: "/",
-    thumbnail: "/",
+    thumbnail: "/10.jpg",
   },
 ];
