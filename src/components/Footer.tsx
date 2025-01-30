@@ -17,7 +17,7 @@ export default function Footer() {
               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
               <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 px-3 py-1 text-sm font-medium text-white backdrop-blur-3xl">
                 <Link
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSdWIE2gebw31oaMeuW70PcKFWffUEdClqAvso_1XJxCKdKZeA/viewform?usp=sharing "
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSdWIE2gebw31oaMeuW70PcKFWffUEdClqAvso_1XJxCKdKZeA/viewform?usp=header"
                   className="hover:text-white"
                 >
                   Want to join Team??
@@ -31,22 +31,22 @@ export default function Footer() {
             <h3 className="text-lg font-semibold">Quick Links</h3>
             <ul className="mt-2 space-y-2 text-gray-400 text-sm">
               <li>
-                <Link href="/about" className="hover:text-gray-200">
+                <Link href="/" className="hover:text-gray-200">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link href="/projects" className="hover:text-gray-200">
+                <Link href="/" className="hover:text-gray-200">
                   Projects
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-gray-200">
+                <Link href="/" className="hover:text-gray-200">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link href="/faq" className="hover:text-gray-200">
+                <Link href="/" className="hover:text-gray-200">
                   FAQ
                 </Link>
               </li>
