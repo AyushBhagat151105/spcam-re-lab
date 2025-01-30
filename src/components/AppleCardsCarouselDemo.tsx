@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import React from "react";
 import { Carousel, Card } from "@/components/ui/apple-cards-carousel";
 
@@ -39,21 +38,15 @@ const DummyContent = () => {
 
 const data = [
   {
-    category: "Artificial Intelligence",
-    title: "You can do more with AI.",
+    category: "SPCAM Team",
+    title: "Yoo We Win",
     src: "/3.jpg",
     content: <DummyContent />,
   },
   {
-    category: "Artificial Intelligence",
+    category: "IOT",
     title: "You can do more with AI.",
     src: "/11.jpg",
-    content: <DummyContent />,
-  },
-  {
-    category: "Artificial Intelligence",
-    title: "You can do more with AI.",
-    src: "/12.jpg",
     content: <DummyContent />,
   },
 ];
