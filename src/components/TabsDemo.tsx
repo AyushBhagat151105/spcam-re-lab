@@ -66,7 +66,7 @@ export function TabsDemo() {
         "From a UI/UX perspective, this system ensures users enjoy a seamless and delightful experience at every touchpoint.",
       name: "Ilma Vahora",
       designation: "UI/UX at Research Lab",
-      src: "/ilma.jpeg",
+      src: "/ilma.jpg",
     },
   ];
 
